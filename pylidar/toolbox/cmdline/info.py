@@ -46,7 +46,7 @@ def getCmdargs():
     return cmdargs
 
 def formatAsString(obj):
-    return pprint.pformat(obj, depth=1, compact=True)
+    return pprint.pformat(obj, depth=1)
 
 def run():
     """
